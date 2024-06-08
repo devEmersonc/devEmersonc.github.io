@@ -232,13 +232,12 @@ span {
 
 .box {
     border: 1px solid var(--main-color);
+    box-shadow: 0 0 18px var(--main-color);
+    border: 1px solid var(--main-color);
 }
 .box:hover {
     background: transparent;
-
     transform: scale(1.03);
-    border: 1px solid var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
 }
 .social-icon-projects a {
     display: inline-flex;
@@ -273,7 +272,7 @@ span {
     font-size: 35px;
 }
 .skills .container {
-    background: #7c4bb759;
+    background: #4b1913;
     color: var(--text-color);
     border-radius: 1rem;
     padding: 2rem;
@@ -419,7 +418,7 @@ span {
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--main-color);
+    background-color: #9b3328;
 }
 .footer .social {
     text-align: center;
