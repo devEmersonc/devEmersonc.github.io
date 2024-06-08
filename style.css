@@ -289,7 +289,7 @@ span {
 }
 .skills .container .bar {
     margin-bottom: 15px;
-    height: 150px;
+    height: 180px;
     padding: 10px;
     border-radius: 1rem;
     background: var(--bg-color);
@@ -311,7 +311,7 @@ span {
 }
 .skills .container .bar .info span {
     margin-top: 3px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     margin-left: 0.5rem;
 }
