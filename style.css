@@ -443,29 +443,8 @@ span {
     color: var(--main-color);
     box-shadow: 0 0 16px var(--main-color);
 }
-.footer ul {
-    margin-top: 30px;
-    padding: 0;
-    font-size: 18px;
-    line-height: 1.8px;
-    margin-bottom: 0;
-    text-align: center;
-}
-.footer ul li a {
-    color: #fff;
-    border-bottom: 3px solid transparent;
-    transition: 0.3s ease;
-    text-decoration: none;
-}
-.footer ul li a:hover {
-    border-bottom: 3px solid #7b4bb7;
-}
-.footer ul li {
-    display: inline-block;
-    padding: 0 15px;
-}
 footer .copyright {
-    margin-top: 70px;
+    margin-top: 20px;
     text-align: center;
     font-size: 16px;
     color: #fff;
