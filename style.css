@@ -43,7 +43,8 @@ html::-webkit-scrollbar-thumb{
     --bg-color: #000000;
     --second-bg-color: #161616;
     --text-color: #fff;
-    --main-color: #7b4bb7;
+    --main-color: #fff;
+    /*--main-color: #7b4bb7;*/
     /*--main-color: #e84935;*/
 }
 
@@ -119,8 +120,13 @@ span {
 }
 
 .home-img img {
+    /*background-color: #4d4949;*/
+    background-color: #ffffffcb;
+    object-fit: cover;
+    object-position: center;
     position: relative;
-    width: 23vw;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 0 0 35px var(--main-color);
     cursor: pointer;
@@ -128,12 +134,15 @@ span {
 
 .home-img img:hover {
     transform: scale(1.01);
-    filter: drop-shadow(0 0 2px var(--main-color));
+    filter: drop-shadow(0 0 2px #66626277);
 }
 
 .home-content p {
     font-size: 1.8rem;
     font-weight: 500;
+}
+.home-content span{
+    color: #3498DB;
 }
 
 .social-icon a {
@@ -190,7 +199,6 @@ span {
 
 .typing-text span::before {
     content: 'Desarrollador Web';
-    color: var(--main-color);
 }
 
 @media (max-width: 1000px) {
@@ -201,8 +209,8 @@ span {
         margin-left: 0;
     }
     .home-img img {
-        height: 300px;
-        max-width: 300px;
+        height: 270px;
+        max-width: 270px;
     }
 }
 @media (max-width:995px) {
@@ -222,12 +230,12 @@ span {
     }
 }
 @media (max-width:991px) {
+    .home {
+        margin-top: 20px;
+    }
     section {
         padding: 10rem 3% 2rem;
     }
-}
-@media (max-width:895px) {
-
 }
 
 .box {
@@ -272,10 +280,10 @@ span {
     font-size: 35px;
 }
 .skills .container {
-    background: #7c4bb759;
+    border: 1px solid var(--main-color);
     color: var(--text-color);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 4rem;
     width: 80%;
     margin: auto;
     margin-top: 2rem;
@@ -417,12 +425,13 @@ span {
 }
 
 .footer {
+    border-top: 1px solid var(--main-color);
     margin-top: 100px;
     position: relative;
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: #7c4bb759;
+    background-color: var(--bg-color);
 }
 .footer .social {
     text-align: center;
