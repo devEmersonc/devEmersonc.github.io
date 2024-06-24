@@ -120,7 +120,6 @@ span {
 }
 
 .home-img img {
-    /*background-color: #4d4949;*/
     background-color: #ffffffcb;
     object-fit: cover;
     object-position: center;
@@ -452,7 +451,7 @@ span {
 }
 .footer .social a:hover {
     transform: scale(1.2)translateY(-5px);
-    background: #fff;
+    background: #000;
     color: var(--main-color);
     box-shadow: 0 0 16px var(--main-color);
 }
