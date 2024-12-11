@@ -300,7 +300,7 @@ span+span {
 
 .home_text-2 {
     font-family: 'PT Sans';
-    color: var(--beaver);
+    color: var(--white);
     font-size: 3.2rem;
     margin-bottom: 1rem;
 }
@@ -325,10 +325,10 @@ span+span {
     font-weight: bold;
     position: absolute;
     right: 0;
-    color: var(--beaver);
+    color: var(--white);
     background-color: var(--jet);
     width: 100%;
-    animation: typing 4s steps(28) alternate infinite;
+    animation: typing 2s steps(28)  infinite;
 }
 
 @keyframes typing {
