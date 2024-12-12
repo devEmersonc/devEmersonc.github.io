@@ -343,7 +343,7 @@ span+span {
 
 
 .cv_button {
-    background-color: var(--beaver);
+    background-color: none;
     border-radius: 3rem;
     padding: .6rem 2rem .5rem 2rem;
     color: var(--jet);
@@ -692,8 +692,8 @@ img.logo-sena {
 
 .btn_repo {
     padding: .8rem 0;
-    background: none;
-    color: var(--beaver);
+    background: #2e2e2eb6;
+    color: rgba(255, 255, 255, 0.63);
     border: 1px solid var(--beaver);
 }
 
