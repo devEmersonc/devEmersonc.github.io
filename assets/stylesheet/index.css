@@ -412,7 +412,7 @@ span+span {
 }
 
 .texto_sobreMi {
-    color: var(--white);
+    color: var(--light-grey);
     font-family: 'Cooper Hewitt';
     font-size: 1.5rem;
     letter-spacing: .1rem;
