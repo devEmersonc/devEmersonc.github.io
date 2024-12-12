@@ -219,21 +219,6 @@ div.btn {
     font-size: 3rem;
 }
 
-.puntos1-habilidades {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 15rem 0 0 /* 41rem */ 20%;
-    background-attachment: fixed;
-}
-
-.puntos2-habilidades {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 0 0 0 76%;
-}
-
 .cards_container--habilidades {
     grid-template-columns: 13rem 13rem 13rem 13rem;
     grid-template-rows: 14rem 14rem;
