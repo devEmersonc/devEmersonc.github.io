@@ -278,13 +278,6 @@ div.btn {
     font-size: 3rem;
 }
 
-.puntos1-proyectos {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 20rem 0 0  1%;
-    background-attachment: fixed;
-}
 
 .cards_container--proyectos {
     flex-direction: row;
@@ -295,8 +288,8 @@ div.btn {
 }
 
 .cards--proyectos {
-    width: 80rem;
-    height: 40rem;
+    width: 50rem;
+    height: 48rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
