@@ -328,7 +328,7 @@ span+span {
     color: var(--white);
     background-color: var(--jet);
     width: 100%;
-    animation: typing 2s steps(28)  infinite;
+    animation: typing 2s steps(35)  infinite;
 }
 
 @keyframes typing {

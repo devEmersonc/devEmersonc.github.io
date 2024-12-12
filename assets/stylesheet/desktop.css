@@ -96,12 +96,13 @@ div.btn {
     font-size: 6rem;
     font-weight: bold;
     color: var(--white);
+    margin-left: 0px;
 }
 
 .home_text-3 {
     margin: 0 0 2rem 0;
     font-size: 1.8rem;
-    width: 35rem;
+    width: 27rem;
     letter-spacing: .2rem;
 }
 
@@ -151,6 +152,7 @@ div.btn {
     border: none;
     cursor: pointer;
     transition: .4s;
+    height: auto;
 }
 
 .contact_button:hover {
@@ -280,6 +282,7 @@ div.btn {
     justify-content: space-between;
     margin: 0 1.5rem;
     z-index: 1;
+    margin-top: 25px;
 }
 
 .text-portafolio {
